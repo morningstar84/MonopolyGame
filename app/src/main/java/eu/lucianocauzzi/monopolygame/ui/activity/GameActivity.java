@@ -247,7 +247,7 @@ public class GameActivity extends AppCompatActivity implements DialogInterface.O
     public void onClick(DialogInterface dialog, int which) {
         Log.d(TAG, "Dialog clicked");
 
-        Toast.makeText(GameActivity.this, "Gioco terminato", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(GameActivity.this, "Gioco terminato", Toast.LENGTH_SHORT).show();
         GameActivity.this.finish();
     }
 
