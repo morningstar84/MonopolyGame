@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Monopoly Game</string>
+
+
+    <!-- Player number -->
+    <string name="player_error_title">Attenzione</string>
+    <string name="player_error_msg">Numero di giocatori non valido: deve essere compreso fra 2 e 8</string>
+    <string name="player_error_ok">OK</string>
+
+
+
+    <!-- Game finished -->
+    <string name="game_finished_title">Partita terminata</string>
+    <string name="game_finished_msg">Purtroppo non so chi abbia vinto :-(</string>
+    <string name="game_finished_ok">OK</string>
+</resources>
