@@ -98,9 +98,9 @@ public class AlertHelper {
         }
 
         try{
-            String title = mContext.getResources().getString(R.string.player_error_title);
-            String msg = mContext.getResources().getString(R.string.player_error_msg);
-            String button = mContext.getResources().getString(R.string.player_error_ok);
+            String title = mContext.getResources().getString(R.string.game_finished_title);
+            String msg = mContext.getResources().getString(R.string.game_finished_msg);
+            String button = mContext.getResources().getString(R.string.game_finished_ok);
 
             genericOneButtonAlertWithListener(mContext,  title, msg, button, okListener).show();
         }catch (Exception e){
